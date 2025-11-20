@@ -111,6 +111,19 @@ a {
     margin-bottom: 10px;
 }
 
+.section3 {
+    margin-top: 20px;
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.section3__content {
+    display: flex;
+    flex-direction:row;
+    margin-top: 10px;
+    display: inline-block;
+
 
 
 @font-face {
