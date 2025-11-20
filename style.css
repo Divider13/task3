@@ -1,14 +1,70 @@
-.container {
-    display: flex;
-    flex-direction: row; /* Располагаем элементы в строку по умолчанию*/
-    justify-content: space-evenly; /* Равномерное распределение по горизонтали */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.block {
-    background-color: #4CAF50;
+html, body {
+    height: 100%;
+}
+
+body {
+background: #000000;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(87, 128, 199, 1) 22%, rgba(135, 127, 198, 1) 70%, rgba(101, 83, 237, 1) 100%);
+}
+
+.header {
+    display: flex;
+    justify-content:space-evenly ;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    background-color: #000000;
+    
+}
+.header_logo {
+    font-family: 'Cyberdyne', sans-serif;
+}
+
+a {
     color: white;
-    height: 100px;
-    width: 100px;
-    margin: 10px;
+    text-decoration: none;
+}
+.main__button{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #f1c6389d;
+    border: 1px solid #f5e343b6;
+    border-radius: 5px; 
+    width: 200px;
+    align-self: center;
+}
+
+.header_logo img {
+    width: 30px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+
+.section1 {
+    display:grid;
+    justify-content: center; /* Равномерное распределение по горизонтали */
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+
+@font-face {
+    font-family: 'Cyberdyne';
+    src: url('fonts/terminatorcyr_semi_expandedbold.ttf') format('truetype');
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
 }
