@@ -113,19 +113,26 @@ main {
     display: flex;
     flex-direction: row;    
     flex-wrap: wrap;         
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
     margin-top: 20px;
 }
 
 .section2__item {
-    flex: 1 1 30%;           
-    min-width: 220px;       
+    flex: 0 0 300px;           
+    min-width: 200px;       
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(209, 208, 208, 0.658);
     color: #000;
+}
+
+.section2_icons {
+    width: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .section2_images {
@@ -237,14 +244,14 @@ main {
     display: flex;
     flex-direction: row;    
     flex-wrap: wrap;         
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
     margin-top: 20px;
 }
 
 .section6__item {
-    flex: 1 1 30%;           
-    min-width: 220px;       
+    flex: 0 0 300px;           
+    min-width: 200px;       
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 10px;
