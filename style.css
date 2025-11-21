@@ -136,8 +136,7 @@ main {
 }
 
 .section2_images {
-    width: 100px;
-    height: 100px;
+    width: 90px;
     object-fit: cover;
     margin-bottom: 10px;
 }
