@@ -135,6 +135,10 @@ main {
     margin-bottom: 10px;
 }
 
+.font_gold {
+    color: #d6a915;
+}
+
 .section3, .section5 {
     margin-top: 20px;
     padding: 20px;
@@ -205,6 +209,17 @@ main {
     margin-right: auto;
 }
 
+.section5 {
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+.section5__content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .section6 {
     align-items: flex-start;
     text-align: center;
@@ -236,6 +251,23 @@ main {
     background-color: rgba(117, 130, 247, 0.151);
     color: #000;
     border-left:#b99f49 4px solid;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #000000;
+    color: white;
+    margin-top: 20px;
+}
+
+.font_company {
+    font-family: 'Cyberdyne', sans-serif;
+    font-size: 11px;
+}
+
+footer span {
+    font-size: 11px;
 }
 
 @font-face {
